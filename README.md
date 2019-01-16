@@ -2,7 +2,7 @@
 Frame by Frame super resolution of a low quality video to higher quality
 
 ### ResNet Super Resolution (ResNet SR)
-<img src="https://github.com/titu1994/Image-Super-Resolution/blob/master/architectures/ResNet.png?raw=true" height=2% width=40%>
+<img src="./architecture/ResNet.png?raw=true" height=2% width=40%>
 The above is the "ResNet SR" model, derived from the "SRResNet" model of the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
 
 Currently uses only 6 residual blocks and 2x upscaling rather than the 15 residual blocks and the 4x upscaling from the paper.
