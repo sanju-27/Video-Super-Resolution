@@ -26,7 +26,7 @@ assert (img_size ** 2) % (stride ** 2) == 0, "Number of images generated from st
                                              "(img_size ** 2) / (stride ** 2) is a positive integer."
 
 input_path = r"./input_images/" # r"input_images/"
-validation_path = r"val_images/" # r"D:\Yue\Documents\Datasets\MSCOCO\val\valset\\" # r"val_images/"
+validation_path = r"val_images/" 
 
 validation_set5_path = validation_path + "set5/"
 validation_set14_path = validation_path + "set14/"
